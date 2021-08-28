@@ -2,46 +2,19 @@
 
 <head>
 <title>project2</title>
-<style>
-.main{
-padding-left: 20px;
-border: solid;
-}
-.div{
-padding-left: 20px;
-border: solid;
-}
-.a{
-padding-left: 20px;
-border: solid;
-}
-.img{
-padding-left: 20px;
-border: solid;
-}
-.span{
-padding-left: 20px;
-border: solid;
-}
-.h0{
-padding-left: 20px;
-border: solid;
-}
-.global_attributes{
-padding-left: 20px;
-border: solid;
-}
-</style>
+<link rel="stylesheet" type="text/css" href="style.css">
 </head>
 
 <body>
-<div class="main" id="main">
+<a id="main">
+<div class="main">
 <h1>Main</h1>
 <h2>개요</h2>
-HTML 정리<br>
+<p>HTML 정리</p>
 
 <h2>참조링크</h2>
-<li><a href="https://www.w3schools.com/tags/default.asp" target="_blank">w3school</a><br></li>
+<li><a href="https://www.w3schools.com/html/default.asp" target="_blank">HTML ref</a><br></li>
+<li><a href="https://www.w3schools.com/css/default.asp" target="_blank">CSS ref</a><br></li>
 <li><a href="https://pridiot.tistory.com/6" target="_blank">태그 순위</a></li>
 
 <h2>태그 목록</h2>
@@ -50,19 +23,22 @@ HTML 정리<br>
 <li><a href="#img">img</a></li>
 <li><a href="#span">span</a></li>
 <li><a href="#h">h0</a></li>
+<li><a href="#input">input</a></li>
 
 <h2>속성 목록</h2>
 <li><a href="#global_attribute">글로벌 속성</a></li>
 </div><br>
 
-<div class="div" id="div">
+<a id="div">
+<div class="div">
 <h1>div 태그</h1>
 <h2>속성</h2>
 <li><a href="#global attributes" rel=tag>글로벌 속성</a></li>
 <br><a href="#main">go to main</a>
 </div><br>
 
-<div class="a" id="a">
+<a id="a">
+<div class="a">
 <h1>a 태그</h1>
 <a>a</a>
 <h2>속성</h2>
@@ -75,7 +51,8 @@ HTML 정리<br>
 <br><a href="#main">go to main</a>
 </div><br>
 
-<div class="img" id="img">
+<a id="img">
+<div class="img">
 <h1>img 태그</h1>
 <h2>속성</h2>
 <li>height</li>
@@ -85,14 +62,16 @@ HTML 정리<br>
 <br><a href="#main">go to main</a>
 </div><br>
 
-<div class="span" id="span">
+<a id="span">
+<div class="span">
 <h1>span 태그</h1>
 <span style="background-color:black;color:red">구글 LLC</span>(영어: Google LLC)는 전 세계의 정보를 체계화하여 모든 사용자가 편리하게 이용할 수 있도록 하는 것을 목표로 하는[2] 미국의 다국적 기업이다. 검색 서비스 제공을 주력으로 한다. 구글 검색은 2018년 5월 기준 전 세계 검색량의 90%를 점유하고 있다.[3] 2008년 웹 페이지 인덱스 수가 1조를 돌파했다.[4]<br>
 <br>
 <a href="#main">go to main</a>
 </div><br>
 
-<div class="h0" id="h">
+<a id="h">
+<div class="h0">
 <h1>h 태그</h1>
 <ul>
 <li><h1>this is h1</h1></li>
@@ -105,7 +84,47 @@ HTML 정리<br>
 <a href="#main">go to main</a>
 </div><br>
 
-<div class="global_attributes"  id="global_attribute">
+<a id="input">
+<div class="input">
+<h1>input 태그</h1>
+<p>정보를 입력할때 사용함 form태그 안에서 사용</p>
+<h2>속성</h2>
+<h3>type 값</h3>
+<table><form>
+<tr> <th>값</th> <th>출력</th> </tr>
+<tr> <th>button</th> <td><input type="button"></td> </tr>
+<tr> <th>checkbox</th> <td><input type="checkbox"></td> </tr>
+<tr> <th>radio</th> <td><input type="radio"></td> </tr>
+<tr> <th>color</th> <td><input type="color"></td> </tr>
+<tr> <th>date</th> <td><input type="date"></td> </tr>
+<tr> <th>datetime-local</th> <td><input type="datetime-local"></td> </tr>
+<tr> <th>month</th> <td><input type="month"></td> </tr>
+<tr> <th>week</th> <td><input type="week"></td> </tr>
+<tr> <th>time</th> <td><input type="time"></td> </tr>
+<tr> <th>email</th> <td><input type="email"></td> </tr>
+<tr> <th>password</th> <td><input type="password"></td> </tr>
+<tr> <th>reset</th> <td><input type="reset"></td> </tr>
+<tr> <th>submit</th> <td><input type="submit"></td> </tr>
+
+</form></table>
+<br>
+<input type="file">
+<input type="hidden">
+<input type="image">
+<input type="number">
+<input type="range">
+<input type="reset">
+<input type="search">
+<input type="submit">
+<input type="tel">
+<input type="text">
+<input type="url">
+
+<a href="#main">go to main</a>
+</div><br>
+
+<a id="global_attribute">
+<div class="global_attributes">
 <h1>글로벌 속성</h1>
 <li>class</li>
 <li>id</li>

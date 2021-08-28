@@ -1,0 +1,7 @@
+div {
+border: solid;
+padding: 0px 0px 30px 30px;
+}
+table, th, td{
+border: solid 1px
+}
